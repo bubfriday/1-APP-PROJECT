@@ -18,6 +18,7 @@ struct ContentView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(80)
+            Text("hello")
         }
     }
     
